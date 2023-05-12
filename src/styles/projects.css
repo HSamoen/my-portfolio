@@ -1,0 +1,44 @@
+
+.project-list{
+    background-color: white;
+    display: grid;
+    padding: 150px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+}
+
+#projects h1{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 50px 100px;
+    border-bottom: 0.1px solid black;
+    text-align: center;
+    color: black;
+}
+
+#projects{
+    background-color: white;
+}
+
+#projects h3{
+    color: black;
+    font-size: 20px;
+}
+#projects h4{
+    color: rgb(49, 49, 49);
+    font-size: 18px;
+}
+
+#projects p{
+    color: #353C46;
+}
+
+.project{
+    border: 0.1px solid black;
+    padding: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
